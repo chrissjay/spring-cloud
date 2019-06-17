@@ -10,6 +10,7 @@
         <module name="cloud-provider" />
         <module name="cloud-discovery" />
         <module name="spring-cloud" />
+        <module name="cloud-zuul" />
       </profile>
     </annotationProcessing>
   </component>
@@ -18,6 +19,7 @@
       <module name="cloud-client" options="-parameters" />
       <module name="cloud-discovery" options="-parameters" />
       <module name="cloud-provider" options="-parameters" />
+      <module name="cloud-zuul" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
     </option>
   </component>

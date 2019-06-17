@@ -1,8 +1,8 @@
 server:
-  port: 8082
+  port: 8083
 spring:
   application:
-    name: cloud-client
+    name: cloud-zuul
 eureka:
   client:
     serviceUrl:
@@ -10,9 +10,8 @@ eureka:
   instance:
     prefer-ip-address: true         #将IP注册到服务注册中心
 
-#放开所有节点
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: cloud-provider

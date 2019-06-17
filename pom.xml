@@ -16,8 +16,9 @@
 
     <modules>
         <module>cloud-client</module>
-        <module>cloud-provider</module>
         <module>cloud-discovery</module>
+        <module>cloud-provider</module>
+        <module>cloud-zuul</module>
     </modules>
 
     <parent>
