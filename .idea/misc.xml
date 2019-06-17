@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/cloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/login/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/pom.xml" />
       </list>
     </option>
   </component>

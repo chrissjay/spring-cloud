@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-client" />
-        <module name="cloud-provider" />
-        <module name="cloud-discovery" />
-        <module name="spring-cloud" />
+        <module name="login" />
         <module name="cloud-zuul" />
+        <module name="cloud-discovery" />
+        <module name="cloud-ribbon" />
+        <module name="spring-cloud" />
+        <module name="cloud-provider" />
+        <module name="cloud-client" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,7 +21,9 @@
       <module name="cloud-client" options="-parameters" />
       <module name="cloud-discovery" options="-parameters" />
       <module name="cloud-provider" options="-parameters" />
+      <module name="cloud-ribbon" options="-parameters" />
       <module name="cloud-zuul" options="-parameters" />
+      <module name="login" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
     </option>
   </component>
