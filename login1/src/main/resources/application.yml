@@ -1,8 +1,8 @@
 server:
-  port: 8081
+  port: 6001
 spring:
   application:
-    name: cloud-zuul
+    name: login
 eureka:
   client:
     serviceUrl:
@@ -10,14 +10,3 @@ eureka:
   instance:
     prefer-ip-address: true         #将IP注册到服务注册中心
 
-zuul:
-  routes:
-    api-a:
-      path: /api-a/**
-      serviceId: cloud-provider
-    api-b:
-      path: /api-b/**
-      serviceId: cloud-ribbon
-    api-c:
-      path: /api-c/**
-      serviceId: login

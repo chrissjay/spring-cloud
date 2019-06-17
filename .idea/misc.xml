@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/cloud-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/login/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/login1/pom.xml" />
       </list>
     </option>
   </component>

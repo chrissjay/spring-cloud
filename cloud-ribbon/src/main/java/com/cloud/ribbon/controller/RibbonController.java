@@ -13,8 +13,7 @@ public class RibbonController {
 
     @RequestMapping("/")
     public String ribbonController() {
-        return "hahahahah";
-        //return service.loginService();
+        return service.loginService();
     }
 
 }

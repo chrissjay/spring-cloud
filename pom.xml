@@ -19,6 +19,9 @@
         <module>cloud-discovery</module>
         <module>cloud-provider</module>
         <module>cloud-zuul</module>
+        <module>cloud-ribbon</module>
+        <module>login</module>
+        <module>login1</module>
     </modules>
 
     <parent>

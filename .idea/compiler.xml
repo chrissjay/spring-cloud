@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="login" />
         <module name="cloud-zuul" />
+        <module name="login1" />
         <module name="cloud-discovery" />
         <module name="cloud-ribbon" />
         <module name="spring-cloud" />
@@ -24,6 +25,7 @@
       <module name="cloud-ribbon" options="-parameters" />
       <module name="cloud-zuul" options="-parameters" />
       <module name="login" options="-parameters" />
+      <module name="login1" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
     </option>
   </component>
